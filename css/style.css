@@ -1,0 +1,279 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+html,body{
+    scroll-behavior: smooth;
+    width: 100%;
+    height: 100%;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 60px;
+    background-color: #8b63dca4;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    
+}
+
+
+nav h2{
+    font-size: 2rem;
+    cursor: pointer;
+}
+nav ul{
+    
+    display: flex;
+    list-style: none;
+    gap: 50px;
+}
+nav ul li{
+    margin-left: 30px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: white;
+    font-weight: 900;
+    transition: 3sec;
+    position: relative;
+}
+nav ul li a:hover{
+    color: black;
+    
+}
+nav ul li a::after{
+    content: "";
+    position: absolute;
+    left: 0%;
+    bottom: -5px;
+    width: 0%;
+    height: 2px;
+    background-color: #090007;
+    transition: 0.3sec;
+
+}
+nav ul li a:hover::after{
+    width: 100%;
+}
+.logo{
+    font-weight: bold;
+    font-size: 2rem;
+    color: #090007;
+}
+.hero{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    height: 90vh;
+}
+
+.hero h1{
+    font-size: 3rem;
+    margin-bottom: 10px;
+}
+.hero p{
+    font-size: 1.8rem;
+    color: rgb(224, 165, 77);
+}
+.hero-btns{
+    margin-top: 10px;
+}
+.btn{
+    text-decoration: none;
+    padding: 10px 20px;
+    margin: 5px;
+    border: 1px solid white;
+    color: rgb(26, 8, 8);
+    border-radius: 2px;
+    transition: 0.3sec;
+}
+.btn:hover{
+    background-color: rgb(226, 221, 231);
+
+}
+.projects{
+    padding: 10px;
+    text-align: center;
+}
+.project-container{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    flex-wrap: wrap;
+    margin-top: 30px;
+}
+.project-card{
+    background-color: aquamarine;
+    padding: 30px;
+    border-radius: 5px;
+    transition: 0.3sec;
+    width: 300px;
+}
+.project-card:hover{
+    transform: translateY(10px);
+}
+
+
+
+
+
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    scroll-behavior: smooth;
+    height: 100%;
+    width: 100%;
+
+
+
+}
+
+.calculator{
+    padding: 50px;
+    border-radius: 30px;
+    width: 300px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.4);
+    margin-left: 500px;
+    margin-top: 50px;
+    
+    
+    
+
+}
+
+#display{
+    border: solid black;
+    width: 100%;
+    height: 70px;
+    text-align: right;
+    font-size: 3rem;
+    padding: 10px;
+    color: azure;
+    border-radius: 10px;
+    background-color: rgb(110, 48, 48);
+}
+#buttons{
+    display: grid;
+    grid-template-columns:repeat(4,1fr);
+    gap: 10px;
+    margin: 10px;
+
+}
+button{
+    height: 40px;
+    width: 40px;
+    border-radius: 10px;
+    font-weight: 600;
+    
+    
+}
+button:hover{
+
+    background-color: orange;
+}
+#display:hover{
+    background-color: white;
+}
+
+button:active{
+    transform: scale(0.99px);
+}
+
+
+
+
+.checker-container h2{
+    text-align: center;
+    font-size: 2rem;
+    margin: 20px;
+}
+.checker-container h3{
+    margin-top: 50px;
+    text-align: center;
+    font-size: large;
+
+}
+.checker{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#task-area{
+    height: 30px;
+    margin-top: 50px;
+    
+    
+}
+.task-list{
+    box-shadow: 0 10px 25px rgba(0,0,0,0.4);;
+    
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    width: 100px;
+    text-align: left;
+    margin-left: 400px;
+    
+}
+
+#task-button{
+    margin-top: 50px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
