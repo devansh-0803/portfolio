@@ -1,14 +1,20 @@
 
-const tasklist=document.querySelector(".task-list");
-const text = document.getElementById("task-area");
-const addbtn=document.getElementById("task-button");
-addbtn.addEventListener("click",function(){
-    tasklist.innerHTML+=`<p>${text.value}</p>`;
-    if(text.value=""){
-        text.value="ENTER something";
-    }
+const input=document.querySelector("input");
+const addbtn=document.getElementById("Addbtn");
+const taskbox=document.getElementById(".box3");
+
+addbtn.addEventListener("click",()=>{
+
+    const x=input.value.trim();
+    console.log(x);
     
-    text.value="";
+    if(input.value===""){
+        console.log("empty");
+        alert("PLEASE ENTER");
+        return;
+        
+       
+    }
 
 
 });

@@ -158,7 +158,6 @@ nav ul li a:hover::after{
 
 
 
-
 *{
     margin: 0;
     padding: 0;
@@ -176,7 +175,7 @@ html,body{
 .calculator{
     padding: 50px;
     border-radius: 30px;
-    width: 300px;
+    width: 405px;
     box-shadow: 0 10px 25px rgba(0,0,0,0.4);
     margin-left: 500px;
     margin-top: 50px;
@@ -188,9 +187,9 @@ html,body{
 
 #display{
     border: solid black;
-    width: 100%;
+    width: 320px;
     height: 70px;
-    text-align: right;
+    text-align: left;
     font-size: 3rem;
     padding: 10px;
     color: azure;
@@ -199,15 +198,17 @@ html,body{
 }
 #buttons{
     display: grid;
+    
     grid-template-columns:repeat(4,1fr);
     gap: 10px;
     margin: 10px;
 
+
 }
 button{
-    height: 40px;
-    width: 40px;
-    border-radius: 10px;
+    height: 70px;
+    width: 70px;
+    border-radius: 50px;
     font-weight: 600;
     
     
@@ -227,44 +228,65 @@ button:active{
 
 
 
-.checker-container h2{
-    text-align: center;
-    font-size: 2rem;
-    margin: 20px;
-}
-.checker-container h3{
-    margin-top: 50px;
-    text-align: center;
-    font-size: large;
 
-}
-.checker{
+
+.box1{
     display: flex;
     justify-content: center;
     align-items: center;
+    height: 500px;
+    width: 800px;
+    background-color: blanchedalmond;
+    border-radius: 5%;
 }
-#task-area{
-    height: 30px;
-    margin-top: 50px;
-    
+.box2{
+
+    background-color: rgba(219, 37, 13, 0.94);
+    height: 450px;
+    width: 750px;
+    border-radius: 4%;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
     
 }
-.task-list{
-    box-shadow: 0 10px 25px rgba(0,0,0,0.4);;
-    
+.bigbox{
+    display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 50px;
-    width: 100px;
-    text-align: left;
-    margin-left: 400px;
-    
+    height: 500px;
+}
+.text{
+
+
+     text-align: center;
 }
 
-#task-button{
-    margin-top: 50px;
+#Addbtn{
+    border-radius: 15%;
+    background-color: rgba(84, 10, 10, 0.407);
+    height: 50px;
+    width: 50px;
+    color: #fcf6fb;
+    cursor: pointer;
+   
+
+}
+#Addbtn:hover{
+    background-color: rgba(0, 0, 0, 0.884);
+}
+.box3{
+    background-color: #fcf6fb;
+    height: 300px;
+    width: 400px;
+    margin-top: 10px;
 }
 
+.box3:hover{
+    background-color: rgba(0, 0, 0, 0.328);
+}
 
 
 
